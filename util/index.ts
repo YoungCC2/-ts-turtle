@@ -1,3 +1,5 @@
+import Promise from "ts-promise";
+
 const util = {
     toString():string{
         

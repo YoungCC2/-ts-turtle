@@ -1,0 +1,25 @@
+{
+  "name": "ts-turtle",
+  "version": "1.0.0",
+  "description": "ts data-structure",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungCC2/ts-turtle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungCC2/ts-turtle/issues"
+  },
+  "homepage": "https://github.com/YoungCC2/ts-turtle#readme",
+  "devDependencies": {
+    "ts-promise": "^2.2.0"
+  }
+}

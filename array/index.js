@@ -1,3 +1,4 @@
+"use strict";
 var List = /** @class */ (function () {
     function List(length) {
         this.data = new Array(length);

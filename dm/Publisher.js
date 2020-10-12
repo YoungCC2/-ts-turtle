@@ -44,6 +44,7 @@ var EventEmitter = /** @class */ (function () {
         }
         var topics = this.c.get(topic);
         if (!topics) {
+            console.log('null');
             return null;
         }
         return topics.map(function (handler) {

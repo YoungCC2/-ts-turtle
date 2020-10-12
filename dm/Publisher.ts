@@ -19,7 +19,7 @@ class EventEmitter {
     unsubscribe(topic: string, handler?: EventHandle): boolean {
 
         if (!handler) {
-            console.log("1")
+            console.log('取消订阅')
             return this.c.delete(topic);
         }
 
@@ -50,6 +50,7 @@ class EventEmitter {
         const topics = this.c.get(topic);
 
         if (!topics) {
+            console.log('不存在的主题')
             return null;
         }
 
